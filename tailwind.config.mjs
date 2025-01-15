@@ -11,6 +11,9 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      backgroundImage: {
+        profile: "url('/public/images/prof_9233-min.png')",
+      },
     },
   },
   plugins: [],
