@@ -16,13 +16,10 @@ import phone from "../../../public/icons/phone-svgrepo-com.svg";
 import react from "../../../public/icons/react-svgrepo-com.svg";
 import tailwind from "../../../public/icons/tailwind-svgrepo-com.svg";
 import telegram from "../../../public/icons/telegram-svgrepo-com.svg";
-import person from "../../../public/icons/person-svgrepo-com.svg";
-import work from "../../../public/icons/business-bag-svgrepo-com.svg";
-import edu from "../../../public/icons/edu.svg";
 
 function Sidebar() {
   return (
-    <div className="w-full h-auto bg-[#EEC0C0] pb-14 flex flex-col gap-56 items-center">
+    <div className="w-full h-auto bg-[#EEC0C0] pb-14 flex flex-col gap-40 items-center">
       <SidebarList title={"contact"}>
         <div className="flex items-center gap-2">
           <div className="w-7 h-7 rounded-full bg-white flex items-center justify-center">

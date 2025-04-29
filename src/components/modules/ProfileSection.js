@@ -11,7 +11,7 @@ function ProfileSection() {
             width={1100}
             height={1100}
             alt="profile"
-            className="relative bottom-9"
+            className="relative bottom-14"
           />
         </div>
       </div>

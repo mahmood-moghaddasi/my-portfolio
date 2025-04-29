@@ -2,7 +2,7 @@ import React from "react";
 
 function SidebarList({ children, title }) {
   return (
-    <div className="flex flex-col gap-4">
+    <div className="flex flex-col gap-4 relative top-[-20px]">
       <header className="bg-white w-[300px]  flex  justify-center h-10">
         <h1 className="text-[26px] uppercase font-bold text-[#414141]">
           {title}
